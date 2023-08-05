@@ -1,7 +1,7 @@
 package learn_go_modules
 
-func HelloModules() string {
-	return "Hello Go Modules"
+func HelloModules(name string) string {
+	return "Hello Go Modules" + name
 }
 
 func Sum(a, b int) int {
